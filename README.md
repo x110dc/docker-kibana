@@ -5,7 +5,7 @@ You need an elasticsearch instance.  It's easy to use another Docker image.  See
 ### To run:
 
 ```
-docker run -d --name kibana --link elasticsearch:es --publish=80:80 --env HOSTNAME=${hostname} texastribune/kibana
+docker run -d --name kibana --link elasticsearch:es --publish=80:80 --env HOSTNAME=${hostname} x110dc/kibana
 ```
 
 Uses nginx.

@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER tech@texastribune.org
+MAINTAINER Daniel Craigmile
 
 # apache2-utils only needed for htpasswd command
 RUN apt-get install -yq apache2-utils nginx
