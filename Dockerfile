@@ -1,6 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Daniel Craigmile
 
+RUN apt-get update
 # apache2-utils only needed for htpasswd command
 RUN apt-get install -yq apache2-utils nginx
 
